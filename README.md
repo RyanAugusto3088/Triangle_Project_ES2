@@ -8,9 +8,9 @@ Projeto desenvolvido como requisito prático para a disciplina de **Engenharia d
 
 ## 🎓 Equipe Desenvolvedora
 
-* Rafaela
-* Rafael
-* Ryan
+* **Rafaela Silva Ruis**
+* **Rafael Yugo Hashimoto**
+* **Ryan Augusto Ribeiro**
 
 ---
 
