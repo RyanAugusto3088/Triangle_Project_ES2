@@ -1,23 +1,38 @@
-# Triangle Problem (Python + pytest)
+# 📐 Problema do Triângulo (Triangle Problem)
 
-This repository contains a Python implementation of the classic **Triangle Problem**, commonly used in software testing.
+Repositório contendo a implementação e a suíte de testes automatizados em Python para o clássico **Problema do Triângulo**. 
 
-## Problem
-
-Given three integers representing the sides of a triangle, the program must classify it as:
-
-- **EQUILATERAL** — all sides equal  
-- **ISOSCELES** — two sides equal  
-- **SCALENE** — all sides different  
-- **INVALID** — does not form a valid triangle  
+Projeto desenvolvido como requisito prático para a disciplina de **Engenharia de Software 2**.
 
 ---
 
-##  Setup
+## 🎓 Equipe Desenvolvedora
 
-Create a virtual environment and install dependencies:
+* **Rafaela Silva Ruis**
+* **Rafael Yugo Hashimoto**
+* **Ryan Augusto Ribeiro**
 
+---
+
+## 📝 Descrição do Problema
+
+Dado um conjunto de três números inteiros que representam os comprimentos dos lados de um triângulo, o programa tem o objetivo de validar as regras matemáticas de existência e classificá-lo corretamente.
+
+As saídas esperadas do programa são:
+
+| Retorno | Regra de Negócio |
+| :--- | :--- |
+| **EQUILATERAL** | Todos os três lados possuem o mesmo tamanho. |
+| **ISOSCELES** | Exatamente dois lados possuem o mesmo tamanho. |
+| **SCALENE** | Todos os três lados possuem tamanhos diferentes. |
+| **INVALID** | Os valores não formam um triângulo (ex: valores negativos, zeros, ou desrespeito à desigualdade triangular). |
+
+---
+
+## 🚀 Como Executar (Setup)
+
+Siga os passos abaixo para preparar o ambiente local e rodar a bateria de testes.
+
+**1. Crie o ambiente virtual:**
 ```bash
 python -m venv venv
-source venv/bin/activate   # Linux/macOS
-pip install pytest
